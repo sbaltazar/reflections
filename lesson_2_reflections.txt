@@ -16,3 +16,12 @@ Branches are helpful when we want to make versions of the application, like new 
 How do the diagrams help you visualize the branch structure?
 
 It helps to understand the reachability of the commit knowing now that they have a parent. So it looks like and tree structure where the last commit of every branch it's the leaf, and the initial commit is the root.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a new commit with two parents, the branch 1 and branch 2 last commits. The diagram helps to get a visual and easy way to know how the commits through the branch are connected
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Saves time.
+Cons: You can't assure what changes made Git without using diff command
