@@ -5,3 +5,14 @@ When you initialize a repository, it creates a .git directory that contains all 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Is different because the staging area is tracked by the git protocol. The waking directory will hace files that are not related to the repository nor git protocol.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging areas is useful to prevent accidental commit. It allows to ensure that we want the changes made are the ones that we want to do it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful when we want to make versions of the application, like new experimental feature, a bug fix, etc. Branches help to maintain the master branch intact avoid worrying making changes that could lead the application to make an error.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps to understand the reachability of the commit knowing now that they have a parent. So it looks like and tree structure where the last commit of every branch it's the leaf, and the initial commit is the root.
