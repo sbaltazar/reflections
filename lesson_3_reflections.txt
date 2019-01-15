@@ -23,7 +23,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Using another version-control protocol, like SVN, it would be easier to commit, avoiding the time staging files, but I'd have less control of my files making difficult and lead to delete code making not recoverable. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
